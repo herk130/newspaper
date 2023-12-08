@@ -37,18 +37,21 @@ header {
 
 .oakland_press-summery {
     text-align: center;
+    font-family: 'Roboto', sans-serif;
     
 }
 
 .oakland_press-title {
     text-align: center;
     font-weight: 900;
+    font-family: 'Roboto', sans-serif;
     
 }
 
 .oakland_press-preview {
     text-align: center;
     font-weight: 700;
+    font-family: 'Roboto', sans-serif;
 }
 
 .fantastic_cuisine-content {
@@ -61,4 +64,8 @@ header {
     text-align: center;
     font-size: 32px;
     font-family: 'Roboto', sans-serif, 900;
+}
+
+.home_dis {
+    font-family: 'Roboto', sans-serif;
 }
