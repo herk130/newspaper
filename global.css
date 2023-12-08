@@ -1,5 +1,10 @@
 /* css Document */
 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&family=Whisper&display=swap');
+
+
 h1 {
     color: rgb(0, 0, 0);
 }
@@ -11,4 +16,49 @@ h3 {
 p {
     color: rgb(0, 0, 0);
 
+}
+
+
+.logo {
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 ; 
+    
+}
+
+
+header {
+    background-color: #333; 
+    padding: 10px;
+    text-align: center;
+    color: #fff; 
+}
+
+.oakland_press-summery {
+    text-align: center;
+    
+}
+
+.oakland_press-title {
+    text-align: center;
+    font-weight: 900;
+    
+}
+
+.oakland_press-preview {
+    text-align: center;
+    font-weight: 700;
+}
+
+.fantastic_cuisine-content {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.fantastic_cuisine-content-heading {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif, 900;
 }
