@@ -6,12 +6,12 @@
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Set to 3 columns for a single row */
-    gap: 16px;
+    gap: 10px;
 }
 
 .image {
-    max-width: 150px; /* Adjusted max-width */
-    max-height: 100px; /* Adjusted max-height */
+    max-width: 150px !important; /* Adjusted max-width */
+    max-height: 100px !important; /* Adjusted max-height */
     overflow: hidden;
     border-radius: 8px;
 }
@@ -19,6 +19,5 @@
 .image img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
     border-radius: 8px; /* Ensure the image takes on the border-radius */
 }
