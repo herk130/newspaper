@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menus</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2e8db; /* Light beige background color */
+            background-image: url('restaurant_background.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+        }
+
+        .menu {
+            width: 400px;
+            height: 550px;
+            margin: 20px;
+            padding: 20px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            background-size: cover;
+            background-position: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: rgba(255, 255, 255, 0.9);
+        }
+
+        #breakfast {
+            background-image: url('https://i.pinimg.com/originals/a2/c9/32/a2c932603e8fd3adecdcca2e608738a8.jpg');
+        }
+
+        #lunch {
+            background-image: url('https://media.timeout.com/images/103688244/image.jpg');
+        }
+
+        #dinner {
+            background-image: url('https://www.lacademie.com/wp-content/uploads/2021/06/beef-steak-mashed-potatoes-768x576.jpg');
+        }
+
+        h2 {
+            text-align: center;
+            color: #000000;
+            font-weight: bold;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+            color: #000000;
+            font-weight: bold;
+        }
+
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="breakfast" class="menu">
+        <h2 style="color: #ff8c00;">Breakfast Menu</h2>
+        <ul>
+            <li>Main Courses:
+                <ul>
+                    <li>Eggs and Bacon</li>
+                    <li>Pancakes with Maple Syrup</li>
+                    <li>Fruit Salad</li>
+                    <li>French Toast</li>
+                    <li>Avocado Toast</li>
+                </ul>
+            </li>
+            <li>Drinks:
+                <select>
+                    <option>Coffee</option>
+                    <option>Tea</option>
+                    <option>Orange Juice</option>
+                    <option>Mimosa</option>
+                    <option>Coke</option>
+                    <option>Diet Coke</option>
+                </select>
+            </li>
+        </ul>
+    </div>
+
+    <div id="lunch" class="menu">
+        <h2 style="color: #4caf50;">Lunch Menu</h2>
+        <ul>
+            <li>Main Courses:
+                <ul>
+                    <li>Grilled Chicken Salad</li>
+                    <li>Vegetarian Wrap</li>
+                    <li>Tomato Basil Soup</li>
+                    <li>Caprese Panini</li>
+                    <li>Caesar Salad</li>
+                </ul>
+            </li>
+            <li>Drinks:
+                <select>
+                    <option>Iced Tea</option>
+                    <option>Lemonade</option>
+                    <option>Soda</option>
+                    <option>Fruit Smoothie</option>
+                    <option>Coke</option>
+                    <option>Diet Coke</option>
+                </select>
+            </li>
+        </ul>
+    </div>
+
+    <div id="dinner" class="menu">
+        <h2 style="color: #e53935;">Dinner Menu</h2>
+        <ul>
+            <li>Main Courses:
+                <ul>
+                    <li>Steak with Mashed Potatoes</li>
+                    <li>Shrimp Pasta</li>
+                    <li>Roasted Vegetables</li>
+                    <li>Salmon with Lemon-Dill Sauce</li>
+                    <li>Vegetarian Risotto</li>
+                </ul>
+            </li>
+            <li>Drinks:
+                <select>
+                    <option>Red Wine</option>
+                    <option>White Wine</option>
+                    <option>Sparkling Water</option>
+                    <option>Cocktail</option>
+                    <option>Coke</option>
+                    <option>Diet Coke</option>
+                </select>
+            </li>
+        </ul>
+    </div>
+
+</body>
+</html>
