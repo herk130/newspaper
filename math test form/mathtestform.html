@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Test</title>
+</head>
+<body>
+
+<!-- Start of the Test -->
+
+<!-- Circle comprised of math symbols -->
+<div style="width: 100px; height: 100px; background-color: lightblue; border-radius: 50%; text-align: center; line-height: 100px; font-size: 20px;">
+    + - &times; ÷
+</div>
+
+<!-- Text field to enter your name -->
+<label for="name">Name:</label>
+<input type="text" id="name" name="name" required>
+
+<!-- Multiple choice questions -->
+<p>1. What is the result of 5 + 3?</p>
+<input type="radio" name="q1" value="a"> 7
+<input type="radio" name="q1" value="b"> 8
+<input type="radio" name="q1" value="c"> 6
+
+<p>2. What is the square root of 25?</p>
+<input type="radio" name="q2" value="a"> 4
+<input type="radio" name="q2" value="b"> 5
+<input type="radio" name="q2" value="c"> 6
+
+<p>3. Solve the equation: 2 &times; 3 = ?</p>
+<input type="radio" name="q3" value="a"> 5
+<input type="radio" name="q3" value="b"> 6
+<input type="radio" name="q3" value="c"> 7
+
+<!-- Word problem with text area -->
+<p>4. A bakery sold 45 cakes on Monday and 30 cakes on Tuesday. How many cakes were sold in total?</p>
+<textarea id="wordProblemAnswer" name="wordProblemAnswer" rows="4" cols="50" placeholder="Type your answer here..." required></textarea>
+
+<!-- Submit button -->
+<button type="submit">Submit</button>
+
+<!-- End of the Test -->
+
+</body>
+</html>
