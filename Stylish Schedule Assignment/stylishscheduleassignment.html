@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busy Day Schedule</title>
+    <style>
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            border: 2px solid #105b8e;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #105b8e;
+        }
+
+        th {
+            background-color: #105b8e;
+            color: #fff;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .important-event {
+            font-weight: bold;
+            color: #e74c3c;
+        }
+
+        .highlight-time {
+            background-color: #f39c12;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>My Busy Day Schedule</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Event</th>
+                <th>Location</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>08:00 AM</td>
+                <td class="important-event">Morning Jog</td>
+                <td>Park</td>
+            </tr>
+            <tr>
+                <td class="highlight-time">10:00 AM</td>
+                <td>Meeting with Team</td>
+                <td>Office</td>
+            </tr>
+            <tr>
+                <td>12:30 PM</td>
+                <td>Lunch</td>
+                <td>Cafeteria</td>
+            </tr>
+            <tr>
+                <td class="highlight-time">03:00 PM</td>
+                <td>Project Deadline</td>
+                <td>Home Office</td>
+            </tr>
+            <tr>
+                <td>05:30 PM</td>
+                <td>Grocery Shopping</td>
+                <td>Supermarket</td>
+            </tr>
+            <tr>
+                <td class="highlight-time">07:00 PM</td>
+                <td class="important-event">Dinner with Family</td>
+                <td>Home</td>
+            </tr>
+            <tr>
+                <td>09:00 PM</td>
+                <td>Read a Book</td>
+                <td>Living Room</td>
+            </tr>
+            <tr>
+                <td class="highlight-time">11:00 PM</td>
+                <td class="important-event">Bedtime</td>
+                <td>Bedroom</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
