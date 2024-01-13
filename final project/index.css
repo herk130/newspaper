@@ -1,0 +1,133 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right, #FFD700, #87CEFA); /* Bright gradient colors */
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+/* About Us Styling */
+#about-us {
+    padding: 40px;
+    background-color: #fff;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h3 {
+    color: #4CAF50;
+}
+
+.about-image {
+    flex: 1;
+    text-align: center;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.about-quote {
+    text-align: center;
+    margin-top: 20px;
+}
+
+blockquote {
+    font-style: italic;
+    color: #555;
+}
+
+/* Team Styling */
+#team {
+    padding: 40px;
+    background-color: #fff;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.team-member {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-member h3 {
+    color: #4CAF50;
+}
+
+/* Values Styling */
+#values {
+    padding: 40px;
+    background-color: #fff;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.core-values {
+    list-style: none;
+    padding: 0;
+}
+
+.core-values li {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.core-values li:last-child {
+    margin-bottom: 0;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Back to Home Link Styling */
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+    border-bottom: 1px solid #fff;
+    transition: border-bottom 0.3s ease;
+}
+
+footer a:hover {
+    border-bottom: 1px solid transparent;
+}
