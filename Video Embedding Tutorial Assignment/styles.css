@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+#film-strips {
+    position: absolute;
+    width: 100%;
+    z-index: -1; /* Places it behind other elements */
+}
+
+#film-strips img {
+    width: 100%;
+    height: fit-content;
+}
+
+#tutorial-content, #embedded-video {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    position: fixed;
+    bottom: -1;
+    width: 100%;
+}
+.screenshot {
+    max-width: 4%;
+    height: 5%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

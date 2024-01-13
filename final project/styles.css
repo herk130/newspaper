@@ -1,0 +1,47 @@
+/* Your existing styles here */
+
+.float-left, .float-right {
+    float: left;
+    margin: 10px;
+}
+
+/* Additional styling for tables */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+/* Additional styling for forms */
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+/* Additional styling for links */
+#links a {
+    color: #333;
+    text-decoration: underline;
+}
+
+#links a:hover {
+    color: #ff4500;
+}
+
+/* Additional styling for multimedia */
+#multimedia video {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px 0;
+}
