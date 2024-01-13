@@ -1,0 +1,34 @@
+/* Apply a reset to remove default margin and padding */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Create a flex container for centering and organizing puzzle pieces */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f0f0; /* Set a background color for better visibility */
+}
+
+/* Style the flex container for the puzzle pieces */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px; /* Adjust as needed */
+    border: 2px solid #333; /* Add a border for better visualization */
+}
+
+/* Style each puzzle piece within the flex container */
+.flex-container img {
+    width: calc(33.33% - 4px); /* Ensure each piece takes up one-third of the container */
+    box-sizing: border-box;
+    margin: 2px; /* Adjust as needed for spacing between pieces */
+}
+
+/* Hide the faulty puzzle piece */
+.flex-container img.faulty {
+    display: none;
+}
